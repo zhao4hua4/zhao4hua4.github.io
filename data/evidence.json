@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "evidence": [
+    {
+      "id": "xhs-post-count",
+      "value": 13916,
+      "display": "13,916",
+      "label": "reader-grounded posts",
+      "unit": "posts",
+      "scope": "XHS-SCoRE benchmark corpus",
+      "source_url": "https://arxiv.org/html/2605.01017v4",
+      "project_id": "xhs-score",
+      "project_url": "https://zhao4hua4.github.io/work/xhs-score/#evidence",
+      "source_description": "Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison-Eliciting Posts They Fail to Detect",
+      "source_availability": "available",
+      "last_verified": "2026-09-09"
+    },
+    {
+      "id": "xhs-encoder-f1",
+      "value": 0.679,
+      "display": "0.679",
+      "label": "supervised Macro-F1",
+      "unit": "score, 0–1",
+      "scope": "Chinese RoBERTa, fixed in-domain test split",
+      "source_url": "https://arxiv.org/html/2605.01017v4",
+      "project_id": "xhs-score",
+      "project_url": "https://zhao4hua4.github.io/work/xhs-score/#evidence",
+      "source_description": "Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison-Eliciting Posts They Fail to Detect",
+      "source_availability": "available",
+      "last_verified": "2026-09-09"
+    },
+    {
+      "id": "xhs-prompted-f1",
+      "value": [
+        0.4,
+        0.518
+      ],
+      "display": ".400–.518",
+      "label": "zero-shot LLM Macro-F1",
+      "unit": "score, 0–1",
+      "scope": "Primary prompted comparison",
+      "source_url": "https://arxiv.org/html/2605.01017v4",
+      "project_id": "xhs-score",
+      "project_url": "https://zhao4hua4.github.io/work/xhs-score/#evidence",
+      "source_description": "Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison-Eliciting Posts They Fail to Detect",
+      "source_availability": "available",
+      "last_verified": "2026-09-09"
+    },
+    {
+      "id": "cue-encoders",
+      "value": 3,
+      "display": "3",
+      "label": "Chinese encoders",
+      "unit": "encoders",
+      "scope": "RoBERTa, MacBERT and BERT",
+      "source_url": null,
+      "source_description": "Hidden in Plain Text, NLPCC 2026 camera-ready manuscript",
+      "source_availability": "coming_soon",
+      "project_id": "cue-visibility",
+      "project_url": "https://zhao4hua4.github.io/work/cue-visibility/#evidence",
+      "last_verified": "2026-09-10"
+    },
+    {
+      "id": "cue-test-posts",
+      "value": 2779,
+      "display": "2,779",
+      "label": "posts in neural analysis",
+      "unit": "posts",
+      "scope": "TEST rows with valid text and class, camera-ready Table 1",
+      "source_url": null,
+      "source_description": "Hidden in Plain Text, NLPCC 2026 camera-ready manuscript",
+      "source_availability": "coming_soon",
+      "project_id": "cue-visibility",
+      "project_url": "https://zhao4hua4.github.io/work/cue-visibility/#evidence",
+      "last_verified": "2026-09-10"
+    },
+    {
+      "id": "cue-family-ranks",
+      "value": [
+        0.942,
+        0.983
+      ],
+      "display": ".942–.983",
+      "label": "cue-family rank correlation",
+      "unit": "Spearman correlation",
+      "scope": "Cross-encoder cue-family ranks, camera-ready Section 5.2",
+      "source_url": null,
+      "source_description": "Hidden in Plain Text, NLPCC 2026 camera-ready manuscript",
+      "source_availability": "coming_soon",
+      "project_id": "cue-visibility",
+      "project_url": "https://zhao4hua4.github.io/work/cue-visibility/#evidence",
+      "last_verified": "2026-09-10"
+    }
+  ]
+}

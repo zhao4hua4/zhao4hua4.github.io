@@ -1,0 +1,66 @@
+# Hua Zhao · Reader-grounded NLP
+
+> Researcher in NLP and linguistics. Language AI. Human meaning.
+
+Content is available in static HTML without JavaScript. Record date: 2026-09-10.
+
+Reader-grounded NLP is the umbrella concept; XHS-SCoRE and the cue-visibility audit are constituent studies.
+
+Publication status, project stage and paper availability are separate fields.
+
+In publication records, url is the publisher or preprint destination; page_url and project_urls identify pages on this site.
+
+A null paper URL with paper_availability coming_soon means no public paper link is available.
+
+Evidence records describe aggregate findings with units, scope and source availability.
+
+## Start here
+
+- [Site index](https://zhao4hua4.github.io/data/index.json): All page URLs, structured records and routes for common reading tasks.
+- [Profile](https://zhao4hua4.github.io/about/): Research identity, pronunciation and professional background.
+- [Technology](https://zhao4hua4.github.io/for-teams/): Applied NLP, evaluation and engineering capabilities.
+- [Publications](https://zhao4hua4.github.io/publications/): Accepted and published papers, citations and conference presentations.
+- [Contact](https://zhao4hua4.github.io/contact/): Contact options.
+
+## Reader-grounded NLP
+
+- [Reader-grounded NLP](https://zhao4hua4.github.io/work/#reader-grounded-nlp): A research direction I develop with my collaborators, bringing the reader and their experienced meaning into NLP targets, benchmarks and model diagnostics.
+- [XHS-SCoRE](https://zhao4hua4.github.io/work/xhs-score/): A benchmark of reader-perceived social comparison: 13,916 Chinese social-media posts, model comparisons and human validation.
+- [Cue-visibility audit](https://zhao4hua4.github.io/work/cue-visibility/): A surface–neural audit of the cues models use to predict reader-perceived social comparison.
+
+## Multilingual evaluation and supporting work
+
+- [Prompt as Stratified Interface](https://zhao4hua4.github.io/work/prompt-interface/): A layered account of how instructions, labels and answer mappings shape multilingual model evaluation.
+- [Language documentation](https://zhao4hua4.github.io/work/tanglang/): Doctoral research on Tanglang, an endangered Ngwi language, and contact-induced phonological change.
+- [MONILite](https://zhao4hua4.github.io/work/monilite/): A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.
+
+## Papers and citations
+
+- [Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison-Eliciting Posts They Fail to Detect](https://zhao4hua4.github.io/work/xhs-score/): EMNLP 2026 · Main conference · Accepted. [Preprint](https://arxiv.org/abs/2605.01017). [BibTeX](https://zhao4hua4.github.io/citations/xhs-score.bib).
+- [Hidden in Plain Text: A Cue-Visibility Audit for Reader-Perceived Social Comparison](https://zhao4hua4.github.io/work/cue-visibility/): NLPCC 2026 · Accepted. Paper coming soon. [BibTeX](https://zhao4hua4.github.io/citations/cue-visibility.bib).
+- [Prompt as Stratified Interface: Decomposing Label-Mediated Effects in Chinese-English NLI](https://zhao4hua4.github.io/work/prompt-interface/): ORACLE 2026 · Workshop · Accepted. Paper coming soon. [BibTeX](https://zhao4hua4.github.io/citations/prompt-interface.bib).
+- [The emotional valence paradox in social media: A computational linguistic analysis of how sentiment, emotion, and content domain predict social comparisons on Rednote](https://zhao4hua4.github.io/publications/#emotional-valence): International Journal of Applied Linguistics · Published · Advance online. [Publisher](https://doi.org/10.1111/ijal.70121). [BibTeX](https://zhao4hua4.github.io/citations/emotional-valence.bib).
+
+## Structured records
+
+- [Profile](https://zhao4hua4.github.io/data/profile.json): Research identity, professional profiles and the contact page.
+- [Research concepts](https://zhao4hua4.github.io/data/concepts.json): Research directions and their constituent projects.
+- [Projects](https://zhao4hua4.github.io/data/projects.json): Project overviews, findings, methods, section links and materials.
+- [Publications](https://zhao4hua4.github.io/data/publications.json): Authors, publication status, paper availability, project pages and citations.
+- [Evidence](https://zhao4hua4.github.io/data/evidence.json): Quantitative results with units, scope, sources and project links.
+- [Presentations](https://zhao4hua4.github.io/data/presentations.json): Conference records and direct material or abstract links.
+- [News](https://zhao4hua4.github.io/data/news.json): Dated research announcements.
+
+## Professional profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=wl9UZQRCNlIC): Public professional profile.
+- [GitHub](https://github.com/zhao4hua4): Public professional profile.
+- [ORCID](https://orcid.org/0000-0003-0744-8441): Public professional profile.
+- [ResearchGate](https://www.researchgate.net/profile/Hua_Zhao32): Public professional profile.
+
+## Optional
+
+- [News](https://zhao4hua4.github.io/#news): Dated research announcements.
+- [Presentations](https://zhao4hua4.github.io/publications/#presentations): Direct links to conference materials and abstracts.
+- [Bibliography](https://zhao4hua4.github.io/publications.bib): All paper citations in BibTeX.
+- [Sitemap](https://zhao4hua4.github.io/sitemap.xml): All content pages.

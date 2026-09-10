@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "profile": {
+    "name": "Hua Zhao",
+    "given_name": "Hua",
+    "family_name": "Zhao",
+    "alternate_names": [
+      "赵化",
+      "zhao4hua4"
+    ],
+    "public_descriptor": "Researcher in NLP and linguistics",
+    "affiliation": {
+      "institution": "Trinity College Dublin"
+    },
+    "headline": "Language AI. Human meaning.",
+    "identity_line": [
+      "Reader-grounded NLP",
+      "Model evaluation",
+      "Multilingual language technology"
+    ],
+    "orcid": "0000-0003-0744-8441",
+    "profile_links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=wl9UZQRCNlIC"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/zhao4hua4"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0003-0744-8441"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Hua_Zhao32"
+      }
+    ],
+    "pronunciation": {
+      "language": "Mandarin Chinese",
+      "name": "赵化",
+      "romanisation": "Zhào Huà",
+      "ipa": "/ʈʂaʊ˥˩ x(w)uɑ˥˩/"
+    },
+    "last_verified": "2026-09-10",
+    "url": "https://zhao4hua4.github.io/about/",
+    "contact_url": "https://zhao4hua4.github.io/contact/",
+    "technology_url": "https://zhao4hua4.github.io/for-teams/"
+  }
+}
