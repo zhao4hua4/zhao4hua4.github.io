@@ -244,7 +244,7 @@ td { color: #55555c; font-variant-numeric: tabular-nums; }
 .pronunciation { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; font-size: 14px; color: var(--muted); margin: 19px 0 10px; }
 .pronunciation > span:first-child { flex-basis: 100%; font-size: 12px; }
 .ipa { font-family: 'Charis SIL', 'Doulos SIL', 'Lucida Grande', 'Arial', sans-serif; letter-spacing: .02em; }
-.research-hero .research-role { font-size: 14px; color: var(--muted); margin: -9px 0 0; }
+.research-hero .research-role { font-size: 14px; color: var(--muted); margin: 8px 0 0; }
 .background-item { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; padding: 22px 0; border-top: 1px solid var(--line); }
 .background-item > span { font-size: 13px; color: var(--muted); padding-top: 3px; }
 .background-item h3 { font-size: 16px; font-weight: 550; margin-bottom: 5px; }
