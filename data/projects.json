@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "projects": [
+    {
+      "id": "xhs-score",
+      "name": "XHS-SCoRE",
+      "short_name": "XHS-SCoRE",
+      "title": "Bring the reader into the prediction target.",
+      "concept_id": "reader-grounded-nlp",
+      "summary": "A benchmark of reader-perceived social comparison: 13,916 Chinese social-media posts, model comparisons and human validation.",
+      "contribution": "XHS-SCoRE puts reader-grounded NLP into practice. With my collaborators, I connect a defined reader-response target to data collection, model evaluation and behavioural validation, using social-comparison direction in Chinese social-media posts.",
+      "finding": "The reader-grounded signal is learnable in-domain, while prompted inference remains fragile. The best supervised Chinese encoder reaches 0.679 Macro-F1; the primary zero-shot prompted conditions range from 0.400 to 0.518. Generated stimuli elicit measurable reader responses in the human pilot.",
+      "methods": [
+        {
+          "title": "Specify the reader–text relation",
+          "text": "Model p(y | x, r): the response y to expression x for reader context r. The benchmark distinguishes upward, downward and no-clear-comparison responses."
+        },
+        {
+          "title": "Ground labels in immediate response",
+          "text": "A collection protocol with 67 active Xiaohongshu users yields 13,916 posts and fixed training, validation and test splits."
+        },
+        {
+          "title": "Connect evaluation and human validation",
+          "text": "Compare supervised encoders and prompted LLMs, inspect directional errors, and examine responses to generated stimuli in a 29-participant pilot."
+        }
+      ],
+      "relevance": "Language AI increasingly operates in settings where interpretation varies across people. Reader-grounded evaluation gives research teams a way to specify whose experience a system should model, collect evidence about that experience, and diagnose where model predictions diverge.",
+      "artifact_access": "public",
+      "publication_id": "pub-xhs-score",
+      "links": [
+        {
+          "label": "Read preprint",
+          "url": "https://arxiv.org/abs/2605.01017",
+          "kind": "paper"
+        },
+        {
+          "label": "Code & materials",
+          "url": "https://github.com/zhao4hua4/XHS-SCoRE",
+          "kind": "code"
+        },
+        {
+          "label": "Paper companion",
+          "url": "https://github.com/zhao4hua4/XHS-SCoRE/blob/main/PAPER.md",
+          "kind": "resource"
+        },
+        {
+          "label": "Collection protocol",
+          "url": "https://github.com/zhao4hua4/XHS-SCoRE/blob/main/docs/collector-protocol-en.md",
+          "kind": "resource"
+        }
+      ],
+      "last_verified": "2026-09-09",
+      "url": "https://zhao4hua4.github.io/work/xhs-score/",
+      "concept_url": "https://zhao4hua4.github.io/work/#reader-grounded-nlp",
+      "publication_url": "https://zhao4hua4.github.io/work/xhs-score/#publication",
+      "related_urls": [
+        "https://zhao4hua4.github.io/work/cue-visibility/",
+        "https://zhao4hua4.github.io/work/prompt-interface/"
+      ],
+      "role": "First author",
+      "sections": [
+        {
+          "name": "Overview",
+          "url": "https://zhao4hua4.github.io/work/xhs-score/#overview"
+        },
+        {
+          "name": "Findings",
+          "url": "https://zhao4hua4.github.io/work/xhs-score/#evidence"
+        },
+        {
+          "name": "Method",
+          "url": "https://zhao4hua4.github.io/work/xhs-score/#methods"
+        },
+        {
+          "name": "Publication & citation",
+          "url": "https://zhao4hua4.github.io/work/xhs-score/#publication"
+        },
+        {
+          "name": "Materials",
+          "url": "https://zhao4hua4.github.io/work/xhs-score/#materials"
+        }
+      ],
+      "project_stage": "completed_study",
+      "publication_status": "accepted",
+      "setting": "Text-only Xiaohongshu posts, a defined reader group, and fixed in-domain splits: 8,350 training, 2,783 validation and 2,783 test posts. Supervised and zero-shot results describe their respective training settings. The 29-participant pilot evaluates generated stimuli.",
+      "access_statement": "Protocols, model runners, prompts, generated examples, predictions and aggregate diagnostics are available under CC BY-NC 4.0. Raw platform posts remain restricted."
+    },
+    {
+      "id": "cue-visibility",
+      "name": "Cue-visibility audit",
+      "short_name": "Hidden in Plain Text",
+      "title": "Make a model’s evidence interpretable.",
+      "concept_id": "reader-grounded-nlp",
+      "summary": "A surface–neural audit of the cues models use to predict reader-perceived social comparison.",
+      "contribution": "Within reader-grounded NLP, we introduce a surface–neural cue-visibility audit for reader-perceived labels. It aligns independently derived corpus patterns with test-time model attribution under a shared reference contrast. The framework distinguishes shared, surface-only, neural-only and weak or contextual evidence.",
+      "finding": "Across all three encoders, downward comparison has greater surface–neural overlap than upward comparison. A shared trouble-telling profile centres on pronouns, negation, reported speech, affectedness and constrained agency. Upward comparison is distributed across achievement, display and platform style. Cue-family ranks correlate at ρ = .942–.983 across encoders.",
+      "methods": [
+        {
+          "title": "Build the corpus view",
+          "text": "Discover surface cues on TRAIN using weighted log odds, keyness, dispersion, function/discourse profiles and concordance. Use NEUTRAL as a substantive reference category."
+        },
+        {
+          "title": "Build the model view",
+          "text": "Compute contrastive attribution on 2,779 analysable TEST posts using fine-tuned Chinese RoBERTa, MacBERT and BERT. Align attributions to surface units and cue families."
+        },
+        {
+          "title": "Audit convergence and divergence",
+          "text": "Compare top-ranked cues, vary selection cutoffs, examine prediction strata, and use masking and layer-wise cue-family checks to characterise robustness."
+        }
+      ],
+      "relevance": "An evaluation score captures predictive performance. A cue-visibility audit adds a view of the evidence behind it: which linguistic patterns a model shares with an interpretable corpus description, and where its decisions depend on platform style or discourse markers.",
+      "artifact_access": "coming_soon",
+      "publication_id": "pub-cue-visibility",
+      "links": [],
+      "last_verified": "2026-09-10",
+      "url": "https://zhao4hua4.github.io/work/cue-visibility/",
+      "concept_url": "https://zhao4hua4.github.io/work/#reader-grounded-nlp",
+      "publication_url": "https://zhao4hua4.github.io/work/cue-visibility/#publication",
+      "related_urls": [
+        "https://zhao4hua4.github.io/work/xhs-score/",
+        "https://zhao4hua4.github.io/work/prompt-interface/"
+      ],
+      "role": "First and corresponding author",
+      "sections": [
+        {
+          "name": "Overview",
+          "url": "https://zhao4hua4.github.io/work/cue-visibility/#overview"
+        },
+        {
+          "name": "Findings",
+          "url": "https://zhao4hua4.github.io/work/cue-visibility/#evidence"
+        },
+        {
+          "name": "Method",
+          "url": "https://zhao4hua4.github.io/work/cue-visibility/#methods"
+        },
+        {
+          "name": "Publication & citation",
+          "url": "https://zhao4hua4.github.io/work/cue-visibility/#publication"
+        },
+        {
+          "name": "Materials",
+          "url": "https://zhao4hua4.github.io/work/cue-visibility/#materials"
+        }
+      ],
+      "project_stage": "completed_study",
+      "publication_status": "accepted",
+      "setting": "One reader-perceived Chinese social-media corpus and three 12-layer BERT-family encoders trained with seed 42. Neural analysis uses 2,779 valid TEST rows; surface replication uses the full 2,783-row TEST split. Attribution and masking describe model behaviour, with effects varying by encoder and control.",
+      "access_statement": "Paper · Coming soon."
+    },
+    {
+      "id": "prompt-interface",
+      "name": "Prompt as Stratified Interface",
+      "short_name": "Prompt as Stratified Interface",
+      "title": "Understand what an evaluation is measuring.",
+      "concept_id": null,
+      "summary": "A layered account of how instructions, labels and answer mappings shape multilingual model evaluation.",
+      "contribution": "We study the prompt as a stratified interface. A Chinese–English natural-language-inference experiment separates instruction language, category names, arbitrary answer symbols and output requirements, making label-mediated effects explicit.",
+      "finding": "The study identifies label presentation as a component of apparent prompt-language effects. Its contribution is a controlled way to analyse the interface through which multilingual model capability is measured.",
+      "methods": [
+        {
+          "title": "Separate the layers",
+          "text": "Distinguish the instruction language, semantic category vocabulary and symbols required in the model's response."
+        },
+        {
+          "title": "Control the mappings",
+          "text": "Compare semantic labels, arbitrary A/B/C mappings and symbols paired with semantic anchors within the same inference task."
+        },
+        {
+          "title": "Interpret model-specific behaviour",
+          "text": "Trace performance changes to interface choices and examine how their direction and magnitude vary across models."
+        }
+      ],
+      "relevance": "Model comparisons depend on how a task is presented. Separating the interface into controlled components gives evaluation teams a clearer basis for interpreting changes in multilingual performance.",
+      "artifact_access": "coming_soon",
+      "publication_id": "pub-prompt-interface",
+      "links": [],
+      "last_verified": "2026-09-09",
+      "url": "https://zhao4hua4.github.io/work/prompt-interface/",
+      "concept_url": null,
+      "publication_url": "https://zhao4hua4.github.io/work/prompt-interface/#publication",
+      "related_urls": [
+        "https://zhao4hua4.github.io/work/xhs-score/",
+        "https://zhao4hua4.github.io/work/cue-visibility/"
+      ],
+      "role": "First author",
+      "sections": [
+        {
+          "name": "Overview",
+          "url": "https://zhao4hua4.github.io/work/prompt-interface/#overview"
+        },
+        {
+          "name": "Findings",
+          "url": "https://zhao4hua4.github.io/work/prompt-interface/#evidence"
+        },
+        {
+          "name": "Method",
+          "url": "https://zhao4hua4.github.io/work/prompt-interface/#methods"
+        },
+        {
+          "name": "Publication & citation",
+          "url": "https://zhao4hua4.github.io/work/prompt-interface/#publication"
+        },
+        {
+          "name": "Materials",
+          "url": "https://zhao4hua4.github.io/work/prompt-interface/#materials"
+        }
+      ],
+      "project_stage": "completed_study",
+      "publication_status": "accepted",
+      "setting": "Chinese–English natural-language inference with controlled label interfaces. The analysis concerns behavioural effects of task presentation.",
+      "access_statement": "Paper · Coming soon."
+    },
+    {
+      "id": "tanglang",
+      "name": "Language documentation",
+      "short_name": "Documenting Tanglang",
+      "title": "Documenting Tanglang.",
+      "concept_id": null,
+      "summary": "Doctoral research on Tanglang, an endangered Ngwi language, and contact-induced phonological change.",
+      "contribution": "My PhD project, A Grammar of Tanglang: Contact-Induced Phonological Change in an Endangered Ngwi Language, brings grammatical description together with the study of language contact. I investigate how Tanglang is organised and how its sound patterns vary across speakers and generations. The project connects these patterns with the social settings in which the language is used, placing phonological change within a broader account of grammar and everyday speech.",
+      "finding": "The funded doctoral programme began in September 2026 at Trinity College Dublin, supported by a Government of Ireland Postgraduate Scholarship. It centres on two connected questions: how to describe Tanglang’s grammatical system, and how language contact shapes phonological variation across generations.",
+      "methods": [
+        {
+          "title": "Document language in use",
+          "text": "The documentation plan combines speech recordings with speaker and situational context. Transcription, translation and annotation will keep examples connected to the circumstances in which they were produced."
+        },
+        {
+          "title": "Trace sound patterns across generations",
+          "text": "Phonological analysis will examine how contact-related patterns vary across speakers and generations, alongside grammatical description. This connects evidence about sound change with the language’s wider structure."
+        },
+        {
+          "title": "Build a record for continued use",
+          "text": "The intended outputs are a grammar and archived documentation with linked recordings and annotations. Community collaboration and agreed access conditions will shape materials for local use and future research."
+        }
+      ],
+      "relevance": "A useful linguistic evidence base connects recordings, transcription, annotation and analysis. This work develops the descriptions and contextual information that support language research, community use and future language technology, particularly where existing resources are limited.",
+      "artifact_access": "not_released",
+      "publication_id": null,
+      "links": [],
+      "last_verified": "2026-09-10",
+      "url": "https://zhao4hua4.github.io/work/tanglang/",
+      "concept_url": null,
+      "publication_url": null,
+      "related_urls": [
+        "https://zhao4hua4.github.io/work/xhs-score/",
+        "https://zhao4hua4.github.io/work/monilite/"
+      ],
+      "role": "Doctoral researcher",
+      "sections": [
+        {
+          "name": "Overview",
+          "url": "https://zhao4hua4.github.io/work/tanglang/#overview"
+        },
+        {
+          "name": "Progress",
+          "url": "https://zhao4hua4.github.io/work/tanglang/#evidence"
+        },
+        {
+          "name": "Method",
+          "url": "https://zhao4hua4.github.io/work/tanglang/#methods"
+        },
+        {
+          "name": "Materials",
+          "url": "https://zhao4hua4.github.io/work/tanglang/#materials"
+        }
+      ],
+      "project_stage": "ongoing",
+      "publication_status": null,
+      "setting": "Tanglang, an endangered Ngwi language in Yunnan, China. Doctoral research in progress.",
+      "access_statement": "Recording and annotation materials are planned as part of the documentation programme. Public access will follow agreements with community collaborators."
+    },
+    {
+      "id": "monilite",
+      "name": "MONILite",
+      "short_name": "MONILite",
+      "title": "MONILite. Research tooling in Python.",
+      "concept_id": null,
+      "summary": "A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.",
+      "contribution": "MONILite offers a concrete engineering artifact alongside the research: a self-contained Linux monitoring application whose implementation separates collection, persistent history, HTTP serving and the command-line entry point.",
+      "finding": "The public repository includes the implementation, installation instructions and architecture documentation.",
+      "methods": [
+        {
+          "title": "Collect",
+          "text": "A Python collector gathers CPU, memory, disk and GPU metrics from a Linux host."
+        },
+        {
+          "title": "Store",
+          "text": "SQLite provides persistent metric history within the application."
+        },
+        {
+          "title": "Inspect",
+          "text": "A bundled Flask dashboard and JSON API expose the recorded metrics."
+        }
+      ],
+      "relevance": "Readable interfaces and inspectable implementations make tools easier to adopt in research workflows. MONILite connects system metrics to persistent history and a usable dashboard in a small application.",
+      "artifact_access": "public",
+      "publication_id": null,
+      "links": [
+        {
+          "label": "Code & setup",
+          "url": "https://github.com/zhao4hua4/MONILite",
+          "kind": "code"
+        },
+        {
+          "label": "Architecture notes",
+          "url": "https://github.com/zhao4hua4/MONILite/blob/main/docs/architecture.md",
+          "kind": "resource"
+        },
+        {
+          "label": "Source files",
+          "url": "https://github.com/zhao4hua4/MONILite/tree/main/src/monilite",
+          "kind": "resource",
+          "featured": true
+        }
+      ],
+      "last_verified": "2026-09-09",
+      "url": "https://zhao4hua4.github.io/work/monilite/",
+      "concept_url": null,
+      "publication_url": null,
+      "related_urls": [
+        "https://zhao4hua4.github.io/work/xhs-score/",
+        "https://zhao4hua4.github.io/work/tanglang/"
+      ],
+      "role": null,
+      "sections": [
+        {
+          "name": "Overview",
+          "url": "https://zhao4hua4.github.io/work/monilite/#overview"
+        },
+        {
+          "name": "Implementation",
+          "url": "https://zhao4hua4.github.io/work/monilite/#evidence"
+        },
+        {
+          "name": "Architecture",
+          "url": "https://zhao4hua4.github.io/work/monilite/#methods"
+        },
+        {
+          "name": "Materials",
+          "url": "https://zhao4hua4.github.io/work/monilite/#materials"
+        }
+      ],
+      "project_stage": "software_available",
+      "publication_status": null,
+      "setting": "A single-host Linux monitoring application. Installation and configuration guidance are maintained in the repository.",
+      "access_statement": "Source code and documentation are available under the MIT licence."
+    }
+  ]
+}

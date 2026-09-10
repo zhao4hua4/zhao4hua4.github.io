@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "news": [
+    {
+      "date": "2026-08-22",
+      "display_date": "22 Aug 2026",
+      "title": "XHS-SCoRE accepted to EMNLP 2026 Main.",
+      "summary": "Our work on reader-grounded NLP brings human interpretation into language-model evaluation.",
+      "url": "https://zhao4hua4.github.io/work/xhs-score/"
+    }
+  ]
+}

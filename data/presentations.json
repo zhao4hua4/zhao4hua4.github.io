@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "presentations": [
+    {
+      "title": "Classical Chinese Nominal Group: System and Structure, and with a Focus on Prosodicity",
+      "event": "49th International Systemic Functional Congress",
+      "start": "2024-07-01",
+      "end": "2024-07-05",
+      "location": "Sydney, NSW, Australia",
+      "source_url": "https://orcid.org/0000-0003-0744-8441",
+      "url": "https://virtual.oxfordabstracts.com/event/4991/submission/57",
+      "link_label": "Conference abstract",
+      "orcid_put_code": 190090091,
+      "last_verified": "2026-09-10",
+      "id": "talk-190090091",
+      "page_url": "https://zhao4hua4.github.io/publications/#talk-190090091"
+    },
+    {
+      "title": "A Preliminary Statistical Report on the Distribution of Tones in Classical Chinese - with XinTangShu as an Example",
+      "event": "The Tenth International Conference of Prosodic Grammar",
+      "start": "2024-07-05",
+      "end": "2024-07-07",
+      "location": "Haidian, Beijing, China",
+      "source_url": "https://orcid.org/0000-0003-0744-8441",
+      "url": "https://www.researchgate.net/publication/383261332_A_Preliminary_Statistical_Report_on_the_Distribution_of_Tones_in_Classical_Chinese_-_with_XinTangShu_as_an_Example",
+      "link_label": "Slides & abstract",
+      "orcid_put_code": 190090314,
+      "last_verified": "2026-09-10",
+      "id": "talk-190090314",
+      "page_url": "https://zhao4hua4.github.io/publications/#talk-190090314"
+    }
+  ]
+}

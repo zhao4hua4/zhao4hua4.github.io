@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "index": {
+    "name": "Hua Zhao · Research and technology",
+    "url": "https://zhao4hua4.github.io/",
+    "reading_guide_url": "https://zhao4hua4.github.io/llms.txt",
+    "sitemap_url": "https://zhao4hua4.github.io/sitemap.xml",
+    "bibliography_url": "https://zhao4hua4.github.io/publications.bib",
+    "pages": [
+      {
+        "title": "Hua Zhao · Reader-grounded NLP & model evaluation",
+        "description": "Hua Zhao develops reader-grounded NLP, diagnostic model evaluation and multilingual language research at Trinity College Dublin.",
+        "url": "https://zhao4hua4.github.io/"
+      },
+      {
+        "title": "Research — Hua Zhao",
+        "description": "Research in reader-grounded NLP, surface–neural cue visibility, multilingual evaluation, language documentation and research software.",
+        "url": "https://zhao4hua4.github.io/work/"
+      },
+      {
+        "title": "XHS-SCoRE — Hua Zhao",
+        "description": "A benchmark of reader-perceived social comparison: 13,916 Chinese social-media posts, model comparisons and human validation.",
+        "url": "https://zhao4hua4.github.io/work/xhs-score/"
+      },
+      {
+        "title": "Cue-visibility audit — Hua Zhao",
+        "description": "A surface–neural audit of the cues models use to predict reader-perceived social comparison.",
+        "url": "https://zhao4hua4.github.io/work/cue-visibility/"
+      },
+      {
+        "title": "Prompt as Stratified Interface — Hua Zhao",
+        "description": "A layered account of how instructions, labels and answer mappings shape multilingual model evaluation.",
+        "url": "https://zhao4hua4.github.io/work/prompt-interface/"
+      },
+      {
+        "title": "Language documentation — Hua Zhao",
+        "description": "Doctoral research on Tanglang, an endangered Ngwi language, and contact-induced phonological change.",
+        "url": "https://zhao4hua4.github.io/work/tanglang/"
+      },
+      {
+        "title": "MONILite — Hua Zhao",
+        "description": "A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.",
+        "url": "https://zhao4hua4.github.io/work/monilite/"
+      },
+      {
+        "title": "Publications — Hua Zhao",
+        "description": "Papers and conference presentations by Hua Zhao, with direct links to papers, research findings, code and presentation materials.",
+        "url": "https://zhao4hua4.github.io/publications/"
+      },
+      {
+        "title": "About — Hua Zhao",
+        "description": "Hua Zhao researches reader-grounded NLP, model evaluation and linguistics at Trinity College Dublin.",
+        "url": "https://zhao4hua4.github.io/about/"
+      },
+      {
+        "title": "Technology — Hua Zhao",
+        "description": "Applied NLP, model evaluation, multilingual testing and Python software by Hua Zhao, with case studies and working code.",
+        "url": "https://zhao4hua4.github.io/for-teams/"
+      },
+      {
+        "title": "Contact — Hua Zhao",
+        "description": "Connect with Hua Zhao about research, industry opportunities, model evaluation and language AI.",
+        "url": "https://zhao4hua4.github.io/contact/"
+      },
+      {
+        "title": "Resources — Hua Zhao",
+        "description": "Published papers and preprints, code, research protocols and conference presentation materials from Hua Zhao.",
+        "url": "https://zhao4hua4.github.io/resources/"
+      },
+      {
+        "title": "Site data — Hua Zhao",
+        "description": "Source-linked research records, publication metadata, presentation links and news for Hua Zhao.",
+        "url": "https://zhao4hua4.github.io/site-data/"
+      }
+    ],
+    "records": [
+      {
+        "id": "profile",
+        "name": "Profile",
+        "description": "Research identity, professional profiles and the contact page.",
+        "url": "https://zhao4hua4.github.io/data/profile.json"
+      },
+      {
+        "id": "concepts",
+        "name": "Research concepts",
+        "description": "Research directions and their constituent projects.",
+        "url": "https://zhao4hua4.github.io/data/concepts.json"
+      },
+      {
+        "id": "projects",
+        "name": "Projects",
+        "description": "Project overviews, findings, methods, section links and materials.",
+        "url": "https://zhao4hua4.github.io/data/projects.json"
+      },
+      {
+        "id": "publications",
+        "name": "Publications",
+        "description": "Authors, publication status, paper availability, project pages and citations.",
+        "url": "https://zhao4hua4.github.io/data/publications.json"
+      },
+      {
+        "id": "evidence",
+        "name": "Evidence",
+        "description": "Quantitative results with units, scope, sources and project links.",
+        "url": "https://zhao4hua4.github.io/data/evidence.json"
+      },
+      {
+        "id": "presentations",
+        "name": "Presentations",
+        "description": "Conference records and direct material or abstract links.",
+        "url": "https://zhao4hua4.github.io/data/presentations.json"
+      },
+      {
+        "id": "news",
+        "name": "News",
+        "description": "Dated research announcements.",
+        "url": "https://zhao4hua4.github.io/data/news.json"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "profile",
+        "name": "Read the professional profile",
+        "urls": [
+          "https://zhao4hua4.github.io/about/",
+          "https://zhao4hua4.github.io/data/profile.json"
+        ]
+      },
+      {
+        "id": "reader-grounded-nlp",
+        "name": "Trace Reader-grounded NLP and its studies",
+        "urls": [
+          "https://zhao4hua4.github.io/work/#reader-grounded-nlp",
+          "https://zhao4hua4.github.io/work/xhs-score/",
+          "https://zhao4hua4.github.io/work/cue-visibility/",
+          "https://zhao4hua4.github.io/data/concepts.json"
+        ]
+      },
+      {
+        "id": "publications",
+        "name": "Find paper status, public papers and citations",
+        "urls": [
+          "https://zhao4hua4.github.io/publications/",
+          "https://zhao4hua4.github.io/data/publications.json",
+          "https://zhao4hua4.github.io/publications.bib"
+        ]
+      },
+      {
+        "id": "evaluation",
+        "name": "Inspect methods and evaluation evidence",
+        "urls": [
+          "https://zhao4hua4.github.io/data/projects.json",
+          "https://zhao4hua4.github.io/data/evidence.json"
+        ]
+      },
+      {
+        "id": "technology",
+        "name": "Review applied NLP and engineering",
+        "urls": [
+          "https://zhao4hua4.github.io/for-teams/",
+          "https://zhao4hua4.github.io/work/monilite/",
+          "https://zhao4hua4.github.io/work/monilite/#materials"
+        ]
+      },
+      {
+        "id": "contact",
+        "name": "Find the contact page",
+        "urls": [
+          "https://zhao4hua4.github.io/contact/"
+        ]
+      }
+    ],
+    "notes": [
+      "Reader-grounded NLP is the umbrella concept; XHS-SCoRE and the cue-visibility audit are constituent studies.",
+      "Publication status, project stage and paper availability are separate fields.",
+      "In publication records, url is the publisher or preprint destination; page_url and project_urls identify pages on this site.",
+      "A null paper URL with paper_availability coming_soon means no public paper link is available.",
+      "Evidence records describe aggregate findings with units, scope and source availability."
+    ]
+  }
+}

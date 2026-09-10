@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "publications": [
+    {
+      "id": "pub-xhs-score",
+      "title": "Psychologically Potent, Computationally Invisible: LLMs Generate Social-Comparison-Eliciting Posts They Fail to Detect",
+      "authors": [
+        "Hua Zhao",
+        "Jiapei Gu",
+        "Michelle Mingyue Gu"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "status": "accepted",
+      "venue": "2026 Conference on Empirical Methods in Natural Language Processing",
+      "venue_short": "EMNLP 2026",
+      "venue_type": "main_conference",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2605.01017",
+      "arxiv": "2605.01017",
+      "preprint_version": "v4",
+      "project_ids": [
+        "xhs-score"
+      ],
+      "last_verified": "2026-09-09",
+      "slug": "xhs-score",
+      "summary": "Introduces reader-grounded NLP through a benchmark that connects perceived social comparison, model evaluation and human validation.",
+      "page_url": "https://zhao4hua4.github.io/publications/#xhs-score",
+      "project_urls": [
+        "https://zhao4hua4.github.io/work/xhs-score/"
+      ],
+      "citation_url": "https://zhao4hua4.github.io/citations/xhs-score.bib",
+      "paper_availability": "available",
+      "paper_kind": "preprint"
+    },
+    {
+      "id": "pub-cue-visibility",
+      "title": "Hidden in Plain Text: A Cue-Visibility Audit for Reader-Perceived Social Comparison",
+      "authors": [
+        "Hua Zhao",
+        "Jiapei Gu",
+        "Michelle Mingyue Gu"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "status": "accepted",
+      "venue": "15th CCF International Conference on Natural Language Processing and Chinese Computing",
+      "venue_short": "NLPCC 2026",
+      "venue_type": "conference",
+      "doi": null,
+      "url": null,
+      "project_ids": [
+        "cue-visibility"
+      ],
+      "last_verified": "2026-09-10",
+      "slug": "cue-visibility",
+      "version": "Camera-ready",
+      "summary": "Introduces a surface–neural cue-visibility audit, linking interpretable corpus patterns to evidence used by three Chinese encoders.",
+      "page_url": "https://zhao4hua4.github.io/publications/#cue-visibility",
+      "project_urls": [
+        "https://zhao4hua4.github.io/work/cue-visibility/"
+      ],
+      "citation_url": "https://zhao4hua4.github.io/citations/cue-visibility.bib",
+      "paper_availability": "coming_soon",
+      "paper_kind": null
+    },
+    {
+      "id": "pub-prompt-interface",
+      "title": "Prompt as Stratified Interface: Decomposing Label-Mediated Effects in Chinese-English NLI",
+      "authors": [
+        "Hua Zhao",
+        "Zhiqing Yang",
+        "Michelle Mingyue Gu"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "status": "accepted",
+      "venue": "First Workshop on Open Reasoning Across Cultures & Languages",
+      "venue_short": "ORACLE 2026",
+      "venue_type": "workshop",
+      "doi": null,
+      "url": null,
+      "project_ids": [
+        "prompt-interface"
+      ],
+      "last_verified": "2026-09-09",
+      "slug": "prompt-interface",
+      "summary": "Decomposes the multilingual evaluation interface into instruction language, semantic labels and answer mappings.",
+      "page_url": "https://zhao4hua4.github.io/publications/#prompt-interface",
+      "project_urls": [
+        "https://zhao4hua4.github.io/work/prompt-interface/"
+      ],
+      "citation_url": "https://zhao4hua4.github.io/citations/prompt-interface.bib",
+      "paper_availability": "coming_soon",
+      "paper_kind": null
+    },
+    {
+      "id": "pub-emotional-valence",
+      "title": "The emotional valence paradox in social media: A computational linguistic analysis of how sentiment, emotion, and content domain predict social comparisons on Rednote",
+      "authors": [
+        "Ming Yue Michelle Gu",
+        "Shuting Zhang",
+        "Yue Ellen Zhang",
+        "Hua Zhao",
+        "Jiapei Sybil Gu",
+        "Jincheng Ding",
+        "Xiaofei Lu",
+        "Che Hin Chetwyn Chan"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "status": "published",
+      "publication_form": "advance_online",
+      "venue": "International Journal of Applied Linguistics",
+      "venue_type": "journal",
+      "doi": "10.1111/ijal.70121",
+      "url": "https://doi.org/10.1111/ijal.70121",
+      "project_ids": [],
+      "last_verified": "2026-09-09",
+      "slug": "emotional-valence",
+      "summary": "Examines how sentiment, emotion and content domain relate to reader-perceived social comparison in 8,743 Rednote posts.",
+      "page_url": "https://zhao4hua4.github.io/publications/#emotional-valence",
+      "project_urls": [],
+      "citation_url": "https://zhao4hua4.github.io/citations/emotional-valence.bib",
+      "paper_availability": "available",
+      "paper_kind": "publisher"
+    }
+  ]
+}

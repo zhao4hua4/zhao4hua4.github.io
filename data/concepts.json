@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "schema_version": "2.1",
+    "mode": "public",
+    "record_date": "2026-09-10"
+  },
+  "concepts": [
+    {
+      "id": "reader-grounded-nlp",
+      "name": "Reader-grounded NLP",
+      "url": "https://zhao4hua4.github.io/work/#reader-grounded-nlp",
+      "summary": "A research direction I develop with my collaborators, bringing the reader and their experienced meaning into NLP targets, benchmarks and model diagnostics.",
+      "definition": "The same expression can prompt different responses in different readers. Reader-grounded NLP makes that relationship explicit: model the response to a text in a defined reader context, then examine the evidence behind the prediction.",
+      "project_ids": [
+        "xhs-score",
+        "cue-visibility"
+      ],
+      "project_urls": [
+        "https://zhao4hua4.github.io/work/xhs-score/",
+        "https://zhao4hua4.github.io/work/cue-visibility/"
+      ]
+    }
+  ]
+}
