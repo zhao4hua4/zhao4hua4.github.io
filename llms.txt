@@ -2,7 +2,7 @@
 
 > Researcher in NLP and linguistics. Language AI. Human meaning.
 
-Content is available in static HTML without JavaScript. Record date: 2026-09-10.
+Content is available in static HTML without JavaScript. Record date: 2026-09-19.
 
 Reader-grounded NLP is the umbrella concept; XHS-SCoRE and the cue-visibility audit are constituent studies.
 
@@ -32,7 +32,11 @@ Evidence records describe aggregate findings with units, scope and source availa
 
 - [Prompt as Stratified Interface](https://zhao4hua4.github.io/work/prompt-interface/): A layered account of how instructions, labels and answer mappings shape multilingual model evaluation.
 - [Language documentation](https://zhao4hua4.github.io/work/tanglang/): Doctoral research on Tanglang, an endangered Ngwi language, and contact-induced phonological change.
-- [MONILite](https://zhao4hua4.github.io/work/monilite/): A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.
+
+## Software and agent tooling
+
+- [MONILite](https://zhao4hua4.github.io/work/monilite/): Open-source software. A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.
+- [EmailHub MCP](https://zhao4hua4.github.io/work/emailhub-mcp/): Open-source software · v0.1.0 preview. A self-hosted email workspace in Go, with bilingual search, a web interface and authenticated tools for AI assistants.
 
 ## Papers and citations
 
@@ -49,7 +53,7 @@ Evidence records describe aggregate findings with units, scope and source availa
 - [Publications](https://zhao4hua4.github.io/data/publications.json): Authors, publication status, paper availability, project pages and citations.
 - [Evidence](https://zhao4hua4.github.io/data/evidence.json): Quantitative results with units, scope, sources and project links.
 - [Presentations](https://zhao4hua4.github.io/data/presentations.json): Conference records and direct material or abstract links.
-- [News](https://zhao4hua4.github.io/data/news.json): Dated research announcements.
+- [News](https://zhao4hua4.github.io/data/news.json): Dated research and software announcements.
 
 ## Professional profiles
 
@@ -60,7 +64,7 @@ Evidence records describe aggregate findings with units, scope and source availa
 
 ## Optional
 
-- [News](https://zhao4hua4.github.io/#news): Dated research announcements.
+- [News](https://zhao4hua4.github.io/#news): Dated research and software announcements.
 - [Presentations](https://zhao4hua4.github.io/publications/#presentations): Direct links to conference materials and abstracts.
 - [Bibliography](https://zhao4hua4.github.io/publications.bib): All paper citations in BibTeX.
 - [Sitemap](https://zhao4hua4.github.io/sitemap.xml): All content pages.
