@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": "2.1",
     "mode": "public",
-    "record_date": "2026-09-10"
+    "record_date": "2026-09-19"
   },
   "projects": [
     {
@@ -54,6 +54,7 @@
         }
       ],
       "last_verified": "2026-09-09",
+      "category": "nlp",
       "url": "https://zhao4hua4.github.io/work/xhs-score/",
       "concept_url": "https://zhao4hua4.github.io/work/#reader-grounded-nlp",
       "publication_url": "https://zhao4hua4.github.io/work/xhs-score/#publication",
@@ -117,6 +118,7 @@
       "publication_id": "pub-cue-visibility",
       "links": [],
       "last_verified": "2026-09-10",
+      "category": "nlp",
       "url": "https://zhao4hua4.github.io/work/cue-visibility/",
       "concept_url": "https://zhao4hua4.github.io/work/#reader-grounded-nlp",
       "publication_url": "https://zhao4hua4.github.io/work/cue-visibility/#publication",
@@ -180,6 +182,7 @@
       "publication_id": "pub-prompt-interface",
       "links": [],
       "last_verified": "2026-09-09",
+      "category": "nlp",
       "url": "https://zhao4hua4.github.io/work/prompt-interface/",
       "concept_url": null,
       "publication_url": "https://zhao4hua4.github.io/work/prompt-interface/#publication",
@@ -243,6 +246,7 @@
       "publication_id": null,
       "links": [],
       "last_verified": "2026-09-10",
+      "category": "documentation",
       "url": "https://zhao4hua4.github.io/work/tanglang/",
       "concept_url": null,
       "publication_url": null,
@@ -319,12 +323,17 @@
         }
       ],
       "last_verified": "2026-09-09",
+      "category": "software",
+      "software": {
+        "programming_language": "Python",
+        "license_url": "https://opensource.org/license/mit"
+      },
       "url": "https://zhao4hua4.github.io/work/monilite/",
       "concept_url": null,
       "publication_url": null,
       "related_urls": [
-        "https://zhao4hua4.github.io/work/xhs-score/",
-        "https://zhao4hua4.github.io/work/tanglang/"
+        "https://zhao4hua4.github.io/work/emailhub-mcp/",
+        "https://zhao4hua4.github.io/work/xhs-score/"
       ],
       "role": null,
       "sections": [
@@ -349,6 +358,99 @@
       "publication_status": null,
       "setting": "A single-host Linux monitoring application. Installation and configuration guidance are maintained in the repository.",
       "access_statement": "Source code and documentation are available under the MIT licence."
+    },
+    {
+      "id": "emailhub-mcp",
+      "name": "EmailHub MCP",
+      "short_name": "EmailHub MCP",
+      "title": "Email tools for AI assistants.",
+      "concept_id": null,
+      "summary": "A self-hosted email workspace in Go, with bilingual search, a web interface and authenticated tools for AI assistants.",
+      "contribution": "EmailHub MCP brings several mailboxes into one workspace through a browser interface and Model Context Protocol (MCP) tools. Written in Go, it connects Microsoft Graph and IMAP/SMTP providers to a local mail store and search index, supporting search, drafts, replies and mailbox organisation.",
+      "finding": "The v0.1.0 preview includes bilingual text search, resumable indexing, revision-controlled drafts and mailbox organisation. The public test suite covers permissions, index recovery, interrupted sends and a 10,000-message synthetic search fixture. Release packages are available for Linux ARM64 and AMD64.",
+      "methods": [
+        {
+          "title": "Sync with visible coverage",
+          "text": "Provider adapters import mailbox history in resumable passes. Persisted folder inventories and continuation cursors keep progress visible while recent messages become searchable. Attachments are fetched only when a specific file is requested or used in an outgoing message."
+        },
+        {
+          "title": "Keep search rebuildable",
+          "text": "SQLite stores mail, accounts, jobs and drafts. A derived Bleve index supports English and Chinese text search, filters and snapshot pagination. Versioned message updates allow interrupted index writes to replay and a missing index to rebuild from the database."
+        },
+        {
+          "title": "Make agent actions explicit",
+          "text": "OAuth scopes and current account permissions gate MCP tools. Draft edits and sends refer to saved revisions. A durable operation ledger records requests before provider submission; an uncertain send outcome is retained for inspection without automatic resubmission."
+        }
+      ],
+      "relevance": "Useful agent tools need clear account context and predictable actions. Search results retain their account and folder provenance; permission checks, saved draft revisions and recorded operation outcomes make email actions explicit and inspectable.",
+      "artifact_access": "public",
+      "publication_id": null,
+      "links": [
+        {
+          "label": "Code & setup",
+          "url": "https://github.com/zhao4hua4/emailhub-mcp",
+          "kind": "code"
+        },
+        {
+          "label": "v0.1.0 preview",
+          "url": "https://github.com/zhao4hua4/emailhub-mcp/releases/tag/v0.1.0",
+          "kind": "resource",
+          "featured": true
+        },
+        {
+          "label": "Architecture & extension points",
+          "url": "https://github.com/zhao4hua4/emailhub-mcp/blob/main/docs/ARCHITECTURE.md",
+          "kind": "resource"
+        },
+        {
+          "label": "MCP tool reference",
+          "url": "https://github.com/zhao4hua4/emailhub-mcp/blob/main/docs/TOOLS.md",
+          "kind": "resource"
+        },
+        {
+          "label": "Recovery & search tests",
+          "url": "https://github.com/zhao4hua4/emailhub-mcp/blob/main/internal/hub/recovery_test.go",
+          "kind": "resource"
+        }
+      ],
+      "last_verified": "2026-09-19",
+      "category": "software",
+      "software": {
+        "programming_language": "Go",
+        "license_url": "https://opensource.org/license/mit",
+        "version": "0.1.0",
+        "release_status": "preview"
+      },
+      "url": "https://zhao4hua4.github.io/work/emailhub-mcp/",
+      "concept_url": null,
+      "publication_url": null,
+      "related_urls": [
+        "https://zhao4hua4.github.io/work/monilite/",
+        "https://zhao4hua4.github.io/work/xhs-score/"
+      ],
+      "role": "Design & implementation",
+      "sections": [
+        {
+          "name": "Overview",
+          "url": "https://zhao4hua4.github.io/work/emailhub-mcp/#overview"
+        },
+        {
+          "name": "Implementation",
+          "url": "https://zhao4hua4.github.io/work/emailhub-mcp/#evidence"
+        },
+        {
+          "name": "Architecture",
+          "url": "https://zhao4hua4.github.io/work/emailhub-mcp/#methods"
+        },
+        {
+          "name": "Materials",
+          "url": "https://zhao4hua4.github.io/work/emailhub-mcp/#materials"
+        }
+      ],
+      "project_stage": "software_available",
+      "publication_status": null,
+      "setting": "An initial preview for a single owner, with a documented Ubuntu 24.04 deployment. Search indexes message text and attachment filenames; attachment contents stay at the provider until requested. Provider-specific capabilities and release limits are documented in the repository.",
+      "access_statement": "Project source and original documentation use the MIT licence. Dependencies retain their own licences."
     }
   ]
 }

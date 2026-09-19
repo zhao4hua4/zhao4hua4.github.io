@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": "2.1",
     "mode": "public",
-    "record_date": "2026-09-10"
+    "record_date": "2026-09-19"
   },
   "index": {
     "name": "Hua Zhao · Research and technology",
@@ -47,6 +47,11 @@
         "url": "https://zhao4hua4.github.io/work/monilite/"
       },
       {
+        "title": "EmailHub MCP — Hua Zhao",
+        "description": "A self-hosted email workspace in Go, with bilingual search, a web interface and authenticated tools for AI assistants.",
+        "url": "https://zhao4hua4.github.io/work/emailhub-mcp/"
+      },
+      {
         "title": "Publications — Hua Zhao",
         "description": "Papers and conference presentations by Hua Zhao, with direct links to papers, research findings, code and presentation materials.",
         "url": "https://zhao4hua4.github.io/publications/"
@@ -58,7 +63,7 @@
       },
       {
         "title": "Technology — Hua Zhao",
-        "description": "Applied NLP, model evaluation, multilingual testing and Python software by Hua Zhao, with case studies and working code.",
+        "description": "Applied NLP, model evaluation, MCP agent tools and Go and Python software by Hua Zhao, with case studies and working code.",
         "url": "https://zhao4hua4.github.io/for-teams/"
       },
       {
@@ -117,7 +122,7 @@
       {
         "id": "news",
         "name": "News",
-        "description": "Dated research announcements.",
+        "description": "Dated research and software announcements.",
         "url": "https://zhao4hua4.github.io/data/news.json"
       }
     ],
@@ -162,8 +167,9 @@
         "name": "Review applied NLP and engineering",
         "urls": [
           "https://zhao4hua4.github.io/for-teams/",
-          "https://zhao4hua4.github.io/work/monilite/",
-          "https://zhao4hua4.github.io/work/monilite/#materials"
+          "https://zhao4hua4.github.io/work/emailhub-mcp/",
+          "https://zhao4hua4.github.io/work/emailhub-mcp/#materials",
+          "https://zhao4hua4.github.io/work/monilite/"
         ]
       },
       {

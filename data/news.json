@@ -2,9 +2,16 @@
   "meta": {
     "schema_version": "2.1",
     "mode": "public",
-    "record_date": "2026-09-10"
+    "record_date": "2026-09-19"
   },
   "news": [
+    {
+      "date": "2026-09-19",
+      "display_date": "19 Sep 2026",
+      "title": "EmailHub MCP v0.1.0 preview released",
+      "summary": "A self-hosted email workspace with bilingual search and authenticated tools for AI assistants. Source, documentation and Linux packages are available.",
+      "url": "https://zhao4hua4.github.io/work/emailhub-mcp/"
+    },
     {
       "date": "2026-08-22",
       "display_date": "22 Aug 2026",
