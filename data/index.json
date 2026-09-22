@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": "2.1",
     "mode": "public",
-    "record_date": "2026-09-19"
+    "record_date": "2026-09-22"
   },
   "index": {
     "name": "Hua Zhao · Research and technology",
@@ -42,14 +42,19 @@
         "url": "https://zhao4hua4.github.io/work/tanglang/"
       },
       {
-        "title": "MONILite — Hua Zhao",
-        "description": "A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.",
-        "url": "https://zhao4hua4.github.io/work/monilite/"
+        "title": "CiteVault — Hua Zhao",
+        "description": "A self-hosted research library for checking human and AI writing against original papers, with traceable citations and access to specific pages.",
+        "url": "https://zhao4hua4.github.io/work/citevault/"
       },
       {
         "title": "EmailHub MCP — Hua Zhao",
         "description": "A self-hosted email workspace in Go, with bilingual search, a web interface and authenticated tools for AI assistants.",
         "url": "https://zhao4hua4.github.io/work/emailhub-mcp/"
+      },
+      {
+        "title": "MONILite — Hua Zhao",
+        "description": "A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.",
+        "url": "https://zhao4hua4.github.io/work/monilite/"
       },
       {
         "title": "Publications — Hua Zhao",
@@ -63,7 +68,7 @@
       },
       {
         "title": "Technology — Hua Zhao",
-        "description": "Applied NLP, model evaluation, MCP agent tools and Go and Python software by Hua Zhao, with case studies and working code.",
+        "description": "Applied NLP, source-based research workflows, MCP agent tools and software engineering by Hua Zhao, with case studies and working code.",
         "url": "https://zhao4hua4.github.io/for-teams/"
       },
       {
@@ -167,8 +172,9 @@
         "name": "Review applied NLP and engineering",
         "urls": [
           "https://zhao4hua4.github.io/for-teams/",
+          "https://zhao4hua4.github.io/work/citevault/",
+          "https://zhao4hua4.github.io/work/citevault/#materials",
           "https://zhao4hua4.github.io/work/emailhub-mcp/",
-          "https://zhao4hua4.github.io/work/emailhub-mcp/#materials",
           "https://zhao4hua4.github.io/work/monilite/"
         ]
       },

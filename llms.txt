@@ -2,7 +2,7 @@
 
 > Researcher in NLP and linguistics. Language AI. Human meaning.
 
-Content is available in static HTML without JavaScript. Record date: 2026-09-19.
+Content is available in static HTML without JavaScript. Record date: 2026-09-22.
 
 Reader-grounded NLP is the umbrella concept; XHS-SCoRE and the cue-visibility audit are constituent studies.
 
@@ -35,8 +35,9 @@ Evidence records describe aggregate findings with units, scope and source availa
 
 ## Software and agent tooling
 
-- [MONILite](https://zhao4hua4.github.io/work/monilite/): Open-source software. A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.
+- [CiteVault](https://zhao4hua4.github.io/work/citevault/): Open-source software · v1.0.1. A self-hosted research library for checking human and AI writing against original papers, with traceable citations and access to specific pages.
 - [EmailHub MCP](https://zhao4hua4.github.io/work/emailhub-mcp/): Open-source software · v0.1.0 preview. A self-hosted email workspace in Go, with bilingual search, a web interface and authenticated tools for AI assistants.
+- [MONILite](https://zhao4hua4.github.io/work/monilite/): Open-source software. A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.
 
 ## Papers and citations
 

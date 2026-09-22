@@ -104,6 +104,8 @@ p { margin-bottom: 20px; }
 .adjacent-direction .direction-intro { margin-bottom: 0; }
 .research-card { display: flex; border-radius: 18px; background: var(--panel); padding: 32px; min-width: 0; transition: transform .28s var(--ease), box-shadow .28s var(--ease); }
 .research-card:hover { transform: translateY(-2px); box-shadow: 0 10px 25px #00000005; }
+.research-card.software-primary { grid-column: 1 / -1; }
+.software-primary .card-description { max-width: 760px; }
 .research-card.featured { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 55px; padding: 40px; }
 .card-copy { display: flex; flex-direction: column; min-width: 0; flex: 1; }
 .card-venue { font-size: 13px; color: var(--muted); margin-bottom: 19px; }

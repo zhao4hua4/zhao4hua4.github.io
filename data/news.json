@@ -2,9 +2,16 @@
   "meta": {
     "schema_version": "2.1",
     "mode": "public",
-    "record_date": "2026-09-19"
+    "record_date": "2026-09-22"
   },
   "news": [
+    {
+      "date": "2026-09-22",
+      "display_date": "22 Sep 2026",
+      "title": "CiteVault v1.0.1 released",
+      "summary": "Check human and AI writing against original papers, with source provenance and access to specific PDF pages. Code, a source release and the workflow guide are available.",
+      "url": "https://zhao4hua4.github.io/work/citevault/"
+    },
     {
       "date": "2026-09-19",
       "display_date": "19 Sep 2026",
