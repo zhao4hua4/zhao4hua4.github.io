@@ -2,7 +2,7 @@
   "meta": {
     "schema_version": "2.1",
     "mode": "public",
-    "record_date": "2026-09-19"
+    "record_date": "2026-09-22"
   },
   "projects": [
     {
@@ -279,85 +279,107 @@
       "access_statement": "Recording and annotation materials are planned as part of the documentation programme. Public access will follow agreements with community collaborators."
     },
     {
-      "id": "monilite",
-      "name": "MONILite",
-      "short_name": "MONILite",
-      "title": "MONILite. Research tooling in Python.",
+      "id": "citevault",
+      "name": "CiteVault",
+      "short_name": "CiteVault",
+      "title": "From a claim to its source.",
       "concept_id": null,
-      "summary": "A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.",
-      "contribution": "MONILite offers a concrete engineering artifact alongside the research: a self-contained Linux monitoring application whose implementation separates collection, persistent history, HTTP serving and the command-line entry point.",
-      "finding": "The public repository includes the implementation, installation instructions and architecture documentation.",
+      "summary": "A self-hosted research library for checking human and AI writing against original papers, with traceable citations and access to specific pages.",
+      "contribution": "CiteVault brings original papers, citation exports and source retrieval into one research workflow. A browser portal supports a shared reading library, while authenticated Model Context Protocol (MCP) tools let a connected AI retrieve original files, page text and rendered pages. Each check can identify the exact document and physical pages used as evidence.",
+      "finding": "Version 1.0.1 includes a browser portal, individual member access, citation conversion, versioned BibTeX, REST uploads and read-only MCP retrieval. Tests cover physical-page identity, rendered images, source-byte preservation and bounded PDF search. The release passed Linux and macOS test and packaging jobs, plus a Docker build and startup check.",
       "methods": [
         {
-          "title": "Collect",
-          "text": "A Python collector gathers CPU, memory, disk and GPU metrics from a Linux host."
+          "title": "Preserve originals and provenance",
+          "text": "Original PDFs and citation exports retain their bytes and SHA-256 hashes. Local citation conversion produces usable BibTeX, while revision records preserve links to the original citation file and contribution history."
         },
         {
-          "title": "Store",
-          "text": "SQLite provides persistent metric history within the application."
+          "title": "Retrieve the pages that matter",
+          "text": "Read-only MCP tools provide catalog search, bibliography retrieval, original downloads, physical-page text and page images. PDF.js supplies text extraction and rendering, so a reader can inspect figures, tables and surrounding context from the original document."
         },
         {
-          "title": "Inspect",
-          "text": "A bundled Flask dashboard and JSON API expose the recorded metrics."
+          "title": "Review claims with explicit coverage",
+          "text": "The documented workflow separates a draft into checkable claims, identifies the intended sources and records the files and pages inspected. A researcher or connected AI assesses support and proposes corrections, with missing sources and unresolved claims kept visible for human review."
         }
       ],
-      "relevance": "Readable interfaces and inspectable implementations make tools easier to adopt in research workflows. MONILite connects system metrics to persistent history and a usable dashboard in a small application.",
+      "relevance": "Checking a literature review or AI answer requires returning to the evidence behind each claim. CiteVault keeps source identity, document versions and reading coverage visible, helping reviewers inspect quotations, tables, figures and the scope of reported findings.",
       "artifact_access": "public",
       "publication_id": null,
       "links": [
         {
           "label": "Code & setup",
-          "url": "https://github.com/zhao4hua4/MONILite",
+          "url": "https://github.com/zhao4hua4/citevault",
           "kind": "code"
         },
         {
-          "label": "Architecture notes",
-          "url": "https://github.com/zhao4hua4/MONILite/blob/main/docs/architecture.md",
+          "label": "v1.0.1 release",
+          "url": "https://github.com/zhao4hua4/citevault/releases/tag/v1.0.1",
+          "kind": "resource",
+          "featured": true
+        },
+        {
+          "label": "Check your writing: workflow",
+          "url": "https://github.com/zhao4hua4/citevault/blob/main/docs/CHECK_YOUR_WRITING.md",
           "kind": "resource"
         },
         {
-          "label": "Source files",
-          "url": "https://github.com/zhao4hua4/MONILite/tree/main/src/monilite",
-          "kind": "resource",
-          "featured": true
+          "label": "User guide",
+          "url": "https://github.com/zhao4hua4/citevault/blob/main/docs/USER_GUIDE.md",
+          "kind": "resource"
+        },
+        {
+          "label": "MCP tool implementation",
+          "url": "https://github.com/zhao4hua4/citevault/blob/main/src/mcp.mjs",
+          "kind": "resource"
+        },
+        {
+          "label": "PDF reading tests",
+          "url": "https://github.com/zhao4hua4/citevault/blob/main/test/pdf.test.mjs",
+          "kind": "resource"
+        },
+        {
+          "label": "v1.0.1 validation",
+          "url": "https://github.com/zhao4hua4/citevault/actions/runs/35711799931",
+          "kind": "resource"
         }
       ],
-      "last_verified": "2026-09-09",
+      "last_verified": "2026-09-22",
       "category": "software",
       "software": {
-        "programming_language": "Python",
-        "license_url": "https://opensource.org/license/mit"
+        "programming_language": "JavaScript",
+        "license_url": "https://opensource.org/license/mit",
+        "version": "1.0.1",
+        "release_status": "released"
       },
-      "url": "https://zhao4hua4.github.io/work/monilite/",
+      "url": "https://zhao4hua4.github.io/work/citevault/",
       "concept_url": null,
       "publication_url": null,
       "related_urls": [
         "https://zhao4hua4.github.io/work/emailhub-mcp/",
-        "https://zhao4hua4.github.io/work/xhs-score/"
+        "https://zhao4hua4.github.io/work/monilite/"
       ],
-      "role": null,
+      "role": "Design & implementation",
       "sections": [
         {
           "name": "Overview",
-          "url": "https://zhao4hua4.github.io/work/monilite/#overview"
+          "url": "https://zhao4hua4.github.io/work/citevault/#overview"
         },
         {
           "name": "Implementation",
-          "url": "https://zhao4hua4.github.io/work/monilite/#evidence"
+          "url": "https://zhao4hua4.github.io/work/citevault/#evidence"
         },
         {
           "name": "Architecture",
-          "url": "https://zhao4hua4.github.io/work/monilite/#methods"
+          "url": "https://zhao4hua4.github.io/work/citevault/#methods"
         },
         {
           "name": "Materials",
-          "url": "https://zhao4hua4.github.io/work/monilite/#materials"
+          "url": "https://zhao4hua4.github.io/work/citevault/#materials"
         }
       ],
       "project_stage": "software_available",
       "publication_status": null,
-      "setting": "A single-host Linux monitoring application. Installation and configuration guidance are maintained in the repository.",
-      "access_statement": "Source code and documentation are available under the MIT licence."
+      "setting": "A self-hosted Node.js application for an individual or a shared research collection. SQLite stores records and provenance; PDF.js handles document reading. The workflow uses papers supplied to that library, with findings tied to the material actually inspected.",
+      "access_statement": "Project source is available under the MIT licence. The repository includes installation instructions, a source release and a guide to checking writing against original papers."
     },
     {
       "id": "emailhub-mcp",
@@ -425,6 +447,7 @@
       "concept_url": null,
       "publication_url": null,
       "related_urls": [
+        "https://zhao4hua4.github.io/work/citevault/",
         "https://zhao4hua4.github.io/work/monilite/",
         "https://zhao4hua4.github.io/work/xhs-score/"
       ],
@@ -451,6 +474,88 @@
       "publication_status": null,
       "setting": "An initial preview for a single owner, with a documented Ubuntu 24.04 deployment. Search indexes message text and attachment filenames; attachment contents stay at the provider until requested. Provider-specific capabilities and release limits are documented in the repository.",
       "access_statement": "Project source and original documentation use the MIT licence. Dependencies retain their own licences."
+    },
+    {
+      "id": "monilite",
+      "name": "MONILite",
+      "short_name": "MONILite",
+      "title": "MONILite. Research tooling in Python.",
+      "concept_id": null,
+      "summary": "A compact Linux monitoring application with Python collection, SQLite history and a dashboard/API.",
+      "contribution": "MONILite offers a concrete engineering artifact alongside the research: a self-contained Linux monitoring application whose implementation separates collection, persistent history, HTTP serving and the command-line entry point.",
+      "finding": "The public repository includes the implementation, installation instructions and architecture documentation.",
+      "methods": [
+        {
+          "title": "Collect",
+          "text": "A Python collector gathers CPU, memory, disk and GPU metrics from a Linux host."
+        },
+        {
+          "title": "Store",
+          "text": "SQLite provides persistent metric history within the application."
+        },
+        {
+          "title": "Inspect",
+          "text": "A bundled Flask dashboard and JSON API expose the recorded metrics."
+        }
+      ],
+      "relevance": "Readable interfaces and inspectable implementations make tools easier to adopt in research workflows. MONILite connects system metrics to persistent history and a usable dashboard in a small application.",
+      "artifact_access": "public",
+      "publication_id": null,
+      "links": [
+        {
+          "label": "Code & setup",
+          "url": "https://github.com/zhao4hua4/MONILite",
+          "kind": "code"
+        },
+        {
+          "label": "Architecture notes",
+          "url": "https://github.com/zhao4hua4/MONILite/blob/main/docs/architecture.md",
+          "kind": "resource"
+        },
+        {
+          "label": "Source files",
+          "url": "https://github.com/zhao4hua4/MONILite/tree/main/src/monilite",
+          "kind": "resource",
+          "featured": true
+        }
+      ],
+      "last_verified": "2026-09-09",
+      "category": "software",
+      "software": {
+        "programming_language": "Python",
+        "license_url": "https://opensource.org/license/mit"
+      },
+      "url": "https://zhao4hua4.github.io/work/monilite/",
+      "concept_url": null,
+      "publication_url": null,
+      "related_urls": [
+        "https://zhao4hua4.github.io/work/citevault/",
+        "https://zhao4hua4.github.io/work/emailhub-mcp/",
+        "https://zhao4hua4.github.io/work/xhs-score/"
+      ],
+      "role": null,
+      "sections": [
+        {
+          "name": "Overview",
+          "url": "https://zhao4hua4.github.io/work/monilite/#overview"
+        },
+        {
+          "name": "Implementation",
+          "url": "https://zhao4hua4.github.io/work/monilite/#evidence"
+        },
+        {
+          "name": "Architecture",
+          "url": "https://zhao4hua4.github.io/work/monilite/#methods"
+        },
+        {
+          "name": "Materials",
+          "url": "https://zhao4hua4.github.io/work/monilite/#materials"
+        }
+      ],
+      "project_stage": "software_available",
+      "publication_status": null,
+      "setting": "A single-host Linux monitoring application. Installation and configuration guidance are maintained in the repository.",
+      "access_statement": "Source code and documentation are available under the MIT licence."
     }
   ]
 }
