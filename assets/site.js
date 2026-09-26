@@ -1,6 +1,6 @@
 'use strict';
 
-// Reading, navigation and disclosures use native HTML. Only clipboard actions need JS.
+// Clipboard enhancement. Analytics preferences are handled in analytics.js.
 document.querySelectorAll('[data-enhance]').forEach(element => { element.hidden = false; });
 
 document.querySelectorAll('[data-copy]').forEach(button => {
