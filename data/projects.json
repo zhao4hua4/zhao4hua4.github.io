@@ -43,6 +43,12 @@
           "kind": "code"
         },
         {
+          "label": "Poster · Coming soon",
+          "url": "/work/xhs-score/poster/",
+          "kind": "resource",
+          "featured": true
+        },
+        {
           "label": "Paper companion",
           "url": "https://github.com/zhao4hua4/XHS-SCoRE/blob/main/PAPER.md",
           "kind": "resource"
