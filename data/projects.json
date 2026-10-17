@@ -184,10 +184,23 @@
         }
       ],
       "relevance": "Model comparisons depend on how a task is presented. Separating the interface into controlled components gives evaluation teams a clearer basis for interpreting changes in multilingual performance.",
-      "artifact_access": "coming_soon",
+      "artifact_access": "public_materials",
       "publication_id": "pub-prompt-interface",
-      "links": [],
-      "last_verified": "2026-09-09",
+      "links": [
+        {
+          "label": "Interactive poster",
+          "url": "/work/prompt-interface/poster/",
+          "kind": "resource",
+          "featured": true
+        },
+        {
+          "label": "Reproducibility repository",
+          "url": "https://github.com/zhao4hua4/stratified-prompt-interface",
+          "kind": "code",
+          "featured": false
+        }
+      ],
+      "last_verified": "2026-10-17",
       "category": "nlp",
       "url": "https://zhao4hua4.github.io/work/prompt-interface/",
       "concept_url": null,
@@ -222,7 +235,7 @@
       "project_stage": "completed_study",
       "publication_status": "accepted",
       "setting": "Chinese–English natural-language inference with controlled label interfaces. The analysis concerns behavioural effects of task presentation.",
-      "access_statement": "Paper · Coming soon."
+      "access_statement": "Explore the interactive poster and public reproducibility repository. Paper · Coming soon."
     },
     {
       "id": "tanglang",
