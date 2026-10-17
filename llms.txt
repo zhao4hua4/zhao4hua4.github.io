@@ -33,6 +33,11 @@ Evidence records describe aggregate findings with units, scope and source availa
 - [Prompt as Stratified Interface](https://zhao4hua4.github.io/work/prompt-interface/): A layered account of how instructions, labels and answer mappings shape multilingual model evaluation.
 - [Language documentation](https://zhao4hua4.github.io/work/tanglang/): Doctoral research on Tanglang, an endangered Ngwi language, and contact-induced phonological change.
 
+## Interactive posters
+
+- [XHS-SCoRE · Interactive poster](https://zhao4hua4.github.io/work/xhs-score/poster/): A benchmark of reader-perceived social comparison: 13,916 Chinese social-media posts, model comparisons and human validation.
+- [Prompt as Stratified Interface · Interactive poster](https://zhao4hua4.github.io/work/prompt-interface/poster/): A layered account of how instructions, labels and answer mappings shape multilingual model evaluation.
+
 ## Software and agent tooling
 
 - [CiteVault](https://zhao4hua4.github.io/work/citevault/): Open-source software · v1.0.1. A self-hosted research library for checking human and AI writing against original papers, with traceable citations and access to specific pages.

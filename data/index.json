@@ -62,6 +62,11 @@
         "url": "https://zhao4hua4.github.io/work/xhs-score/poster/"
       },
       {
+        "title": "Prompt as Interface · Interactive poster — Hua Zhao",
+        "description": "A layered account of how instructions, labels and answer mappings shape multilingual model evaluation.",
+        "url": "https://zhao4hua4.github.io/work/prompt-interface/poster/"
+      },
+      {
         "title": "Publications — Hua Zhao",
         "description": "Papers and conference presentations by Hua Zhao, with direct links to papers, research findings, code and presentation materials.",
         "url": "https://zhao4hua4.github.io/publications/"
@@ -175,6 +180,14 @@
         "urls": [
           "https://zhao4hua4.github.io/data/projects.json",
           "https://zhao4hua4.github.io/data/evidence.json"
+        ]
+      },
+      {
+        "id": "interactive-posters",
+        "name": "Explore interactive research posters",
+        "urls": [
+          "https://zhao4hua4.github.io/work/xhs-score/poster/",
+          "https://zhao4hua4.github.io/work/prompt-interface/poster/"
         ]
       },
       {
